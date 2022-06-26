@@ -1,0 +1,32 @@
+.sidebarChat{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+}
+.sidebarChat:hover{
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+.sidebarChatInfo{
+    margin-left: 15px;
+}
+.sidebarChatInfo h2{
+    font-size: 16px;
+}
+.sidebarChatInfo p{
+    font-size: 12px;
+}
+.sidebarChat>h2{
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebarChat.MuiAvatar-circular{
+width: 30px;
+height: 30px;
+}
+.lnk{
+    text-decoration: none;
+    color: black;
+}
